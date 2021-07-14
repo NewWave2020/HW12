@@ -1,0 +1,84 @@
+/* Установка во всем файле алгоритма установления ширины и высоты блока */
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+
+/* Сброс настроет отступов для списка */
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Отмена у элемента списка  маркера*/
+li{
+	list-style: none;
+}
+
+/* Уберается подчеркивание у ссылок и задается цвет по умолчанию */
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Сброс внутренних и наружних отступов у заголовков */
+h1,
+h2,
+h3,
+p{
+	padding: 0;
+	margin: 0;
+}
+
+h2{
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 58px;
+}
+
+h3{
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: bold;
+}
+
+
+input{
+	font: inherit;
+}
+
+/* Задается стиль для кнопок */
+.btn{
+	color: #fff;
+	line-height: 1;
+	font: inherit;
+	outline: none;
+	cursor: pointer;
+	background-color: #FF9900;
+	border: 3px solid #FF9900;
+	user-select: none;
+}
+
+/* задается параметры для ширины страницы */
+.container{
+	max-width: 1770px;
+	margin: 0 auto;
+}
+
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+  }
+
+.main{
+	padding-bottom: 101px;
+}

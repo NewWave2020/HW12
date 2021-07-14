@@ -1,0 +1,44 @@
+.carousel {
+    margin-bottom: 97px;
+    padding-top: 103px;
+    padding-left: 81px;
+    padding-bottom: 30px;
+    background: url("../img/pic_1.1.jpg") center no-repeat;
+    background-size: 100% auto;
+    height: 620px;
+    color: #fff;
+}
+
+.carousel__title,
+.carousel__text,
+.carousel-btn {
+    max-width: 841px;
+}
+
+.carousel__title {
+    margin-bottom: 21px;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 86px;
+}
+
+.carousel__text {
+    margin-bottom: 96px;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 29px;
+}
+
+.carousel-btn {
+    padding: 28px 38px;
+    font-size: 23.5px;
+    font-weight: bold;
+    transition-property: background-color, border;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(255, 153, 0, 0.6);
+    border-color: transparent;
+}

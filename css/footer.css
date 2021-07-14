@@ -1,0 +1,200 @@
+.footer{
+	padding-top: 46px;
+	padding-bottom: 80px;
+	background-color: #222222;
+	color: #CACACA;
+}
+
+.cellar{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.celler__left{
+	margin-right: 121px;
+	max-width: 363px;
+}
+
+.celler__block{
+	display: flex;
+	margin-top: 113px;
+}
+
+.celler__text{
+	max-width: 363px;
+	line-height: 32px;
+}
+
+.celler__block-icon{
+	width: 60px;
+	height: 60px;
+}
+
+.celler__block-icon:not(:last-child){
+	margin-right: 26px;
+}
+
+.celler__block-link{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.celler__nav{
+	display: flex;
+	margin-top: 18px;
+}
+
+.icon-fb{
+	background: url(../img/fb.svg) center center no-repeat;
+	transition: background .3s ease-in-out;
+}
+
+.icon-fb:hover{
+	background: url(../img/fb_hover.svg) center center no-repeat;
+}
+
+.icon-vk{
+	background: url(../img/vk.svg) center center no-repeat;
+	transition: background .3s ease-in-out;
+}
+
+.icon-vk:hover{
+	background: url(../img/vk_hover.svg) center center no-repeat;
+}
+
+.icon-inst{
+	background: url(../img/instagram.svg) center center no-repeat;
+	transition: background .3s ease-in-out;
+}
+
+.icon-inst:hover{
+	background: url(../img/instagram_hover.svg) center center no-repeat;
+}
+
+
+.celler__center{
+	margin-top: 13px;
+	width: 570px;
+}
+
+.celler__center-title{
+	margin-bottom: 20px;
+}
+
+
+
+.input-style{
+	margin-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	padding: 21px 25px;
+	width: 100%;
+	height: 60px;
+	border: 1px solid #414141;
+	background: #414141;
+	outline: none;
+	color: #CACACA;
+}
+
+.send textarea{
+	height: 150px;
+	margin-bottom: 34px;
+	resize: none;
+}
+
+.btn-input{
+	margin-right: 30px;
+	padding: 19px 51px;
+	transition: background-color .3s ease-in-out;
+}
+
+.btn-input:hover{
+	background-color: transparent;
+}
+
+
+.checkbox-style{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+}
+
+.send__checkbox{
+	position: relative;
+}
+
+.send__checkbox-span{
+	user-select: none;
+	cursor: pointer;
+}
+
+.send__checkbox-span::before{
+	content: "";
+	width: 14px;
+	height: 14px;
+	border: 1px solid #CACACA;
+	display: inline-block;
+}
+
+.send__checkbox-span::after{
+	content: "";
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	width: 10px;
+	height: 10px;
+	background: url(../img/chek.svg) center no-repeat;
+	background-size: cover;
+	opacity: 0;
+}
+
+.checkbox-style:checked + .send__checkbox-span::after{
+	opacity: 1;
+}
+
+
+.celler__right{
+	margin-top: 84px;
+}
+
+
+.celler__right-item:not(:last-child){
+	margin-bottom: 14px;
+}
+
+.celler__right-link{
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #CACACA;
+}
+
+.celler__right-link{
+	position: relative;
+}
+
+.celler__right-link::after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	transform: translateY(6px);
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #FF9900;
+	opacity: 0;
+	transition: opacity .3s ease-in-out;
+}
+
+.celler__right-link:hover::after{
+	opacity: 1;
+}
+.celler__block-right,
+.celler__right-logo{
+	display: none;
+}
