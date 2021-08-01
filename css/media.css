@@ -9,39 +9,48 @@
     .about-us__text_top {
         max-width: 100%;
     }
+
     .celler__center {
         margin-right: auto;
         padding-right: 50px;
     }
+
     .send__checkbox {
         margin-top: 30px;
         display: block;
     }
+
     .top__item:not(:last-child) {
         margin-right: 49px;
     }
+
     .about-us__left {
         margin: 0 auto;
     }
+
     .about-us__items {
         margin-top: 40px;
     }
+
     .about-us__item:first-child {
-        margin-bottom: 40px;
+        margin-bottom: 32px;
     }
+
     .about-us__left,
     .about-us__items,
     .about-us__item {
         max-width: 100%;
     }
+
     .about-us__bottom {
         display: block;
     }
+
     .work__left {
         max-width: 53%;
         padding-right: 52px;
-        padding-bottom: 20px;
     }
+
     .work__title {
         line-height: 24px;
     }
@@ -51,128 +60,163 @@
     .top {
         padding-bottom: 20px;
     }
+
     .top__link {
         margin: 0 auto;
     }
+
     .top__link-img {
         width: 150px;
         height: 48px;
     }
+
     .top__nav {
         display: none;
     }
+
     .btn-search {
         margin: 0;
     }
+
     .btn-burger {
         display: block;
     }
+
     .carousel {
-        margin-bottom: 60px;
+        margin-bottom: 83px;
         max-width: 924px;
         min-height: 669px;
         padding-top: 161px;
         padding-right: 100px;
-        padding-left: 45px;
+        padding-left: 77px;
         background-size: cover;
     }
+
     .carousel__title {
-        margin-bottom: 10px;
+        margin-bottom: 18px;
         font-size: 60px;
         line-height: 73px;
     }
+
     .carousel__text {
-        margin-bottom: 110px;
+        margin-bottom: 60px;
         font-weight: bold;
         font-size: 20px;
         line-height: 24px;
     }
-    .about-us__bottom {
-        margin-top: 59px;
+
+    .about-us {
+        margin-bottom: 81px;
     }
-    .about-us__title {
-        margin-bottom: 26px;
-    }
+
     .about-us__text_top {
+        margin-bottom: 62px;
+    }
+
+    .about-us__title {
+        margin-bottom: 10px;
+    }
+
+    .about-us__text_top {
+        font-size: 16px;
         line-height: 32px;
     }
+
     .about-us_icon {
         margin-left: 0;
     }
+
     .about-us__left {
         min-height: 640px;
+        margin-bottom: 32px;
     }
     .block-info {
         padding: 0 51px 0 44px;
     }
     .about-us__items {
-        margin-top: 50px;
+        margin-top: 0px;
     }
-    .about-us__item:first-child {
-        background-position: 15% 48%;
-    }
-    .about-us__item:last-child {
-        background-position: 15% 44%;
-    }
+
     .about-us__item {
-        padding: 66px 91px 20px 351px;
+        padding: 64px 128px 0px 316px;
     }
+
     .work {
-        margin-top: 60px;
+        margin-bottom: 80px;
     }
-    .work_bottom {
-        margin-top: 45px;
-    }
+
     .work__title {
-        margin-bottom: 7px;
+        margin-bottom: 15px;
     }
-    .work__button-block {
-        margin-top: 27px;
+
+    .work__left_info {
+        margin-bottom: 23px;
+        font-size: inherit;
     }
-    .questions {
-        margin-top: 39px;
-    }
+
     .questions__title {
-        margin-bottom: 47px;
+        margin-bottom: 32px;
     }
+
     .questions__style {
+        height: 116px;
         font-size: 20px;
     }
+
     .questions__text {
         max-width: 740px;
     }
+
+    .footer {
+        padding-top: 50px;
+    }
+
+    .celler__left {
+        margin: 0;
+    }
+
+    .celler__nav {
+        margin: 8px 0 0 0;
+    }
+
     .celler__items {
         margin-top: 14px;
     }
+
     .celler__text,
     .celler__right {
         display: none;
     }
+
     .celler__center {
-        margin-right: 0;
+        margin: 0;
         padding-right: 0;
         max-width: 534px;
     }
+
     .input-style {
         display: inline-block;
     }
+
     .btn-input {
         padding: 18px 34px;
     }
+
     .celler__right-item:not(:last-child) {
         margin-bottom: 14px;
     }
+
     .send textarea {
         margin-bottom: 17px;
     }
+
     .send__checkbox {
         display: inline-block;
     }
+
     .main {
-        padding-bottom: 60px;
-    }
-    .celler__nav {
-        margin: 0;
+        padding-bottom: 80px;
+
     }
 }
 
@@ -183,73 +227,93 @@
         padding-left: 49px;
         height: 699px;
     }
+
     .top {
         padding-top: 7px;
         padding-bottom: 9px;
     }
+
     .block-info {
         padding: 0 29px 0 28px;
     }
+
     .about-us__item {
         min-height: 235px;
         padding: 36px 10px 20px 177px;
     }
+
     .about-us__left {
         min-height: 650px;
     }
+
     .about-us__items {
         margin-top: 39px;
     }
+
     .about-us__item:first-child {
         background-position: 5% 51%;
         background-size: 120px 137px;
     }
+
     .about-us__item:last-child {
         background-size: 116px 148px;
         background-position: 5% 49%;
     }
+
     .work {
         margin-top: 60px;
     }
+
     .work__step {
         justify-content: space-between;
     }
+
     .work__step_item:not(:last-child) {
         margin-right: 0;
     }
+
     .work_bottom {
         display: block;
         margin-top: 41px;
     }
+
     .work__left {
         margin-top: 43px;
         max-width: 100%;
         padding-right: 0;
     }
+
     .work__right_768 {
         display: block;
         max-width: 668px;
         height: 284px;
         background: url("../img/pic_4.1.jpg") center/cover no-repeat;
     }
+
     .questions__title {
         font-size: 46px;
     }
+
     .questions__text {
         max-width: 527px;
     }
+
     .celler__items {
         display: none;
     }
+
     .cellar {
         flex-direction: column-reverse
     }
+
     .celler__center {
         margin-top: 15px;
     }
+
     .celler__left {
         margin-top: 59px;
     }
+
     .celler__block {
         margin-top: 11px;
     }
