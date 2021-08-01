@@ -12,13 +12,13 @@
 }
 
 .celler__left{
-	margin-right: 121px;
+	margin-right: 115px;
 	max-width: 363px;
 }
 
 .celler__block{
 	display: flex;
-	margin-top: 113px;
+	margin-top: 98px;
 }
 
 .celler__text{
@@ -45,7 +45,7 @@
 
 .celler__nav{
 	display: flex;
-	margin-top: 18px;
+	margin-top: 26px;
 }
 
 .icon-fb{
@@ -77,15 +77,13 @@
 
 
 .celler__center{
-	margin-top: 13px;
+	margin-top: 6px;
 	width: 570px;
 }
 
 .celler__center-title{
 	margin-bottom: 20px;
 }
-
-
 
 .input-style{
 	margin-bottom: 25px;
@@ -102,13 +100,13 @@
 
 .send textarea{
 	height: 150px;
-	margin-bottom: 34px;
+	margin-bottom: 36px;
 	resize: none;
 }
 
 .btn-input{
-	margin-right: 30px;
-	padding: 19px 51px;
+	margin-right: 21px;
+	padding: 16px 52px;
 	transition: background-color .3s ease-in-out;
 }
 
@@ -159,7 +157,7 @@
 
 
 .celler__right{
-	margin-top: 84px;
+	margin-top: 92px;
 }
 
 

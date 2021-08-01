@@ -49,6 +49,14 @@ input{
 	font: inherit;
 }
 
+textarea{
+	font: inherit;
+}
+
+button{
+	padding: 0;
+}
+
 /* Задается стиль для кнопок */
 .btn{
 	color: #fff;
@@ -80,5 +88,5 @@ input{
   }
 
 .main{
-	padding-bottom: 101px;
+	padding-bottom: 93px;
 }

@@ -1,5 +1,5 @@
 .work {
-    /* margin-bottom: 103px; */
+    margin-bottom: 99px;
 }
 
 .work_title {
@@ -12,7 +12,7 @@
 }
 
 .work__step_item:not(:last-child) {
-    margin-right: 76px;
+    margin-right: 72px;
 }
 
 .work__step_item-link {
@@ -44,17 +44,16 @@
 }
 
 .work__left {
-    max-width: 758px;
+    max-width: 760px;
 }
 
 .work__left_info {
+    margin-bottom: 76px;
+    font-size: 12px;
     font-weight: normal;
     line-height: 32px;
 }
 
-.work__button-block {
-    margin-top: 59px;
-}
 
 .work__button-block_left {
     display: inline-block;
