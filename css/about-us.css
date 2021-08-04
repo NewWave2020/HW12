@@ -52,11 +52,9 @@
 }
 
 .about-us-btn {
-    padding: 20px 39px;
+    padding: 20px 36px 20px 35px;
     font-size: 16px;
     height: 63px;
-    padding-right: 36px;
-    padding-left: 35px;
     background-color: transparent;
     transition: background-color .3s ease-in-out;
 }

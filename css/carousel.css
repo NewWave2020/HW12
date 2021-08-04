@@ -5,7 +5,7 @@
     padding-bottom: 30px;
     background: url("../img/pic_1.1.jpg") center no-repeat;
     background-size: 100% auto;
-    height: 620px;
+    min-height: 620px;
     color: #fff;
 }
 
