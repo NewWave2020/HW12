@@ -1,13 +1,22 @@
 main .carousel {
     position: relative;
-    margin-bottom: 97px;
+    margin-bottom: 101px;
     min-height: 620px;
-    color: #fff;
+    color: #FFF;
 }
-.swiper-container .swiper-wrapper{
+
+.carousel-content{
+    position: relative;
+    z-index: 5;
+}
+
+.carousel .swiper{
     position: absolute;
-    top: 0px;
-    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
 }
 
 .carousel__img_1{
@@ -34,7 +43,7 @@ main .carousel {
 
 .carousel__title {
     position: absolute;
-    top:15%;
+    top:16%;
     left: 4.5%;
     font-weight: 800;
     font-size: 70px;
@@ -52,7 +61,7 @@ main .carousel {
 
 .carousel-btn {
     position: absolute;
-    top: 70%;
+    top: 71%;
     left: 4.5%;
     padding: 26px 34px;
     font-size: 23.5px;
@@ -79,3 +88,8 @@ main .carousel {
 .swiper-pagination-bullet{
     margin: 21px 11px !important;
 }
+
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: 4px !important;
+}
+

@@ -7,7 +7,6 @@
     border-top: 1px solid #CACACA;
     transition: color .5s ease, border-color .5s ease;
 }
-
 .questions__list_item:last-child {
     border-bottom: 1px solid #CACACA;
 }
@@ -25,10 +24,10 @@
     border-bottom: 1px solid #CACACA;
 }
 
-
-.questions__style {
+.ui-accordion .ui-accordion-header{
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
     align-items: center;
     width: 100%;
     height: 113px;
@@ -41,7 +40,6 @@
     font-weight: bold;
     color: #333;
     outline: none;
-    cursor: pointer;
     transition: color .25s ease-in-out;
 }
 
@@ -50,7 +48,6 @@
 }
 
 /* .question__btn {
-    
     display: inline-block;
     position: relative;
     min-width: 50px;
@@ -67,7 +64,33 @@
     background-color: #D2D2D2;
 }
 
-/* .question__btn::after {
+
+.ui-helper-reset{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.ui-widget-content{
+    border: none;
+}
+
+.ui-icon{
+    display: inline-block;
+    position: relative;
+    min-width: 50px;
+    height: 50px;
+    background-color: #ECECEC;
+    border: 1px solid #ECECEC;
+    border-radius: 50%;
+    transition-property: background-color, transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    background-image: none;
+}
+
+.ui-icon::after{
     content: "";
     position: absolute;
     left: 50%;
@@ -77,9 +100,13 @@
     width: 1px;
     height: 31px;
     background-color: #666666;
+    transition-property: background-color, transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    
 }
 
-.question__btn::before {
+.ui-icon::before {
     content: "";
     position: absolute;
     left: 50%;
@@ -89,23 +116,35 @@
     width: 31px;
     height: 1px;
     background-color: #666666;
+    transition-property: background-color, transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+/* .ui-icon:hover .ui-icon::before,
+.ui-icon:hover .ui-icon::after {
+    background-color: #000;
+    transform: rotate(45deg);
 } */
 
-.questions__list_item:hover .question__btn::before,
-.questions__list_item:hover .question__btn::after {
-    background-color: #000;
-}
-
-.question__btn:hover{
-    transform: rotate(45deg);
+.ui-state-hover .ui-icon{
+    background-image: none;
+    background-color: #FF9900;
     
 }
-
-.questions__text {
-    display: inline-block;
+.ui-state-focus .ui-icon{
+    background-image: none
 }
 
-.accordion .ui-accordion-header {
-    position: relative;
+.ui-state-hover .ui-icon::before,
+.ui-state-hover .ui-icon::after{
+    background-color: #fff
 }
+
+.ui-state-active .ui-icon,
+.ui-state-active .ui-icon{
+    background-image: none;
+    transform: rotate(45deg);
+}
+
 

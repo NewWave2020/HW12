@@ -1,47 +1,59 @@
-const swiper = new Swiper('.swiper-container', {
-    // Optional parameters
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: 'false'
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: 'true'
+  },
+
+});
+
+$('#accordion').accordion({
+  icons: {
+    "header": ".question__plus",
+    "activeHeader": "ui-icon-minus"
+  }
+});
+
+$(function () {
+  $("#accordion").accordion({
+    collapsible: true,
   });
 
-  $(function () {
-    $("#accordion").accordion({
-      collapsible: true,
-    });
-    $('.accordion').accordion({
-      active: true,
-      collapsible: true,
-      heightStyle: 'content',
-      header: '> .questions__style > .question__btn'
-    });
-
-    // var icons = {
-    //   header: "ui-icon-circle-arrow-e",
-    //   activeHeader: "ui-icon-circle-arrow-s"
-    // };
-    // $("#accordion").accordion({
-    //   icons: icons
-    // });
-    
-    $("#accordion").accordion({
-      animate: 300
-    });
-    
-    // $( "#accordion" ).accordion( "option", "icons", null );
+  $('#accordion').accordion({
+    active: true,
+    collapsible: true,
+    heightStyle: 'content',
+    header: '> .questions__style > .question__btn'
   });
+
+  $("#accordion").accordion({
+    animate: 300
+  });
+
+  $(".accordion").accordion({
+    heightStyle: "content"
+  });
+
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  document.querySelectorAll('.work__step_item-link').forEach(function (tabsBtn) {
+    tabsBtn.addEventListener('click', function (e) {
+      const path = e.currentTarget.dataset.path;
+
+      document.querySelectorAll('.work__step_item-link').forEach(function (btn) {
+        btn.classList.remove('work__step_item-active')
+      });
+      e.currentTarget.classList.add('work__step_item-active');
+
+      document.querySelectorAll('.work_bottom').forEach(function (tabsBtn) {
+        tabsBtn.classList.remove('work_bottom--active')
+      });
+      document.querySelector(`[data-target="${path}"]`).classList.add('work_bottom--active');
+    });
+  });
+})

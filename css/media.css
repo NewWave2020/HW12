@@ -3,10 +3,14 @@
         padding-right: 50px;
         padding-left: 50px;
     }
+
+    .carousel .swiper{
+        margin: 0 50px;
+    }
 }
 
 @media (max-width: 1420px) {
-    .about-us__text_top {
+    .about-us__text-top {
         max-width: 100%;
     }
 
@@ -122,17 +126,12 @@
         margin-bottom: 81px;
     }
 
-    .about-us__text_top {
+    .about-us__text-top {
         margin-bottom: 62px;
     }
 
     .about-us__title {
         margin-bottom: 10px;
-    }
-
-    .about-us__text_top {
-        font-size: 16px;
-        line-height: 32px;
     }
 
     .about-us_icon {
@@ -234,6 +233,10 @@
 }
 
 @media (max-width: 768px) {
+    .carousel .swiper{
+        margin: 0 10px;
+    }
+
     .carousel {
         margin-right: 50px;
         margin-left: 50px;
@@ -294,21 +297,23 @@
         margin-right: 0;
     }
 
-    .work_bottom {
-        display: block;
+    .work_bottom--active {
+        justify-content: start;
+        flex-direction: column-reverse;
+    }
+
+    .work__right-1,
+    .work__right-2,
+    .work__right-3,
+    .work__right-4{
+        min-height: 284px;
+        width: 100%;
     }
 
     .work__left {
         margin-top: 43px;
         max-width: 100%;
         padding-right: 0;
-    }
-
-    .work__right_768 {
-        display: block;
-        max-width: 668px;
-        height: 284px;
-        background: url("../img/pic_4.1.jpg") center/cover no-repeat;
     }
 
     .questions__title {

@@ -1,5 +1,5 @@
 /* Установка во всем файле алгоритма установления ширины и высоты блока */
-*,
+
 *::before,
 *::after{
 	box-sizing: border-box;
@@ -71,6 +71,7 @@ button{
 
 /* задается параметры для ширины страницы */
 .container{
+	position: relative;
 	max-width: 1770px;
 	margin: 0 auto;
 }
