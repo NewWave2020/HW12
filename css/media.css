@@ -92,17 +92,30 @@
         background-size: cover;
     }
 
+    main .carousel{
+        min-height: 671px;
+        margin-bottom: 81px;
+    }
+
     .carousel__title {
-        margin-bottom: 18px;
+        top: 24%;
+        left: 8.5%;
         font-size: 60px;
         line-height: 73px;
     }
 
     .carousel__text {
-        margin-bottom: 60px;
+        max-width: 660px;
+        top: 49%;
+        left: 8.5%;
         font-weight: bold;
         font-size: 20px;
         line-height: 24px;
+    }
+
+    .carousel-btn{
+        top: 65%;
+        left: 8.5%;
     }
 
     .about-us {
@@ -568,7 +581,7 @@
         height: 122px;
         font-weight: normal;
     }
-    .question__btn {
+    /* .question__btn {
         min-width: 30px;
         height: 30px;
     }
@@ -577,7 +590,7 @@
     }
     .question__btn::after{
         height: 18px;
-    }
+    } */
 
     .footer{
         padding-top: 18px;

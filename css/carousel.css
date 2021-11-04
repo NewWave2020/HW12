@@ -1,35 +1,59 @@
-.carousel {
+main .carousel {
+    position: relative;
     margin-bottom: 97px;
-    padding-top: 103px;
-    padding-left: 81px;
-    padding-bottom: 30px;
-    background: url("../img/pic_1.1.jpg") center no-repeat;
-    background-size: 100% auto;
     min-height: 620px;
     color: #fff;
+}
+.swiper-container .swiper-wrapper{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+.carousel__img_1{
+    background: url("../img/pic_1.1.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.carousel__img_2{
+    background: url("../img/pic_1.2.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.carousel__img_3{
+    background: url("../img/pic_1.3.jpg") center no-repeat;
+    background-size: cover;
 }
 
 .carousel__title,
 .carousel__text,
 .carousel-btn {
+  
     max-width: 841px;
 }
 
 .carousel__title {
-    margin-bottom: 21px;
+    position: absolute;
+    top:15%;
+    left: 4.5%;
     font-weight: 800;
     font-size: 70px;
     line-height: 86px;
 }
 
 .carousel__text {
-    margin-bottom: 87px;
+    position: absolute;
+    top:47%;
+    left: 4.5%;
     font-weight: bold;
     font-size: 23px;
     line-height: 29px;
 }
 
 .carousel-btn {
+    position: absolute;
+    top: 70%;
+    left: 4.5%;
     padding: 26px 34px;
     font-size: 23.5px;
     font-weight: bold;
@@ -41,4 +65,17 @@
  .carousel-btn:hover {
     background-color: rgba(255, 153, 0, 0.6);
     border-color: transparent;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet-active{
+    background: #FFF;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+}
+
+.swiper-pagination-bullet{
+    margin: 21px 11px !important;
 }

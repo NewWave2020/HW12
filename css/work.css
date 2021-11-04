@@ -12,7 +12,7 @@
 }
 
 .work__step_item:not(:last-child) {
-    margin-right: 72px;
+    margin-right: 86px;
 }
 
 .work__step_item-link {
@@ -44,12 +44,12 @@
 }
 
 .work__left {
-    max-width: 760px;
+    max-width: 781px;
 }
 
 .work__left_info {
     margin-bottom: 76px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 32px;
 }
